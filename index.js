@@ -117,13 +117,26 @@ var kakaoShareBtn = document.getElementById("kakaoShareBtn");
 kakaoShareBtn.onclick = function() {
 
     Kakao.Link.sendDefault({
-    objectType: 'text',
-    text:
-        '준모 & 현정 모바일 청첩장',
-    link: {
-        mobileWebUrl: 'http://wedding0312.com/',
-        webUrl: 'http://wedding0312.com/'
-    },
+
+        objectType: 'feed',
+        content: {
+            title: '준모 & 현정 모바일 청첩장',
+            description: 'description',
+            imageUrl:
+            'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+            link: {
+            mobileWebUrl: 'http://wedding0312.com/',
+            webUrl: 'http://wedding0312.com/'
+            },
+        },
+        buttons: [
+            {
+              title: '청첩장 보기',
+              link: {
+                mobileWebUrl: 'http://wedding0312.com/',
+              },
+            }
+          ]
     });
 }
 
