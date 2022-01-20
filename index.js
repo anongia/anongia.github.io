@@ -1,3 +1,8 @@
+// init kakao once
+
+Kakao.init('94964405baa73e1cc86f8d7fd5510502');
+
+
 // contact modal
 var modal = document.getElementById("contactModal");
 var btn = document.getElementById("contactBtn");
@@ -107,27 +112,19 @@ copybtn4.onclick = function() {
     document.body.removeChild(el);
 }
 
-Kakao.init('94964405baa73e1cc86f8d7fd5510502');
-Kakao.Link.sendDefault({
-    container: '#kakao-link-btn',
-    objectType: 'feed',
-    content: {
-    title: '모바일 청첩장',
-    description: '모바일 청첩장',
-    imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
+
+var kakaoShareBtn = document.getElementById("kakaoShareBtn");
+kakaoShareBtn.onclick = function() {
+
+    Kakao.Link.sendDefault({
+    objectType: 'text',
+    text:
+        '준모 & 현정 모바일 청첩장',
     link: {
         mobileWebUrl: 'http://wedding0312.com/',
         webUrl: 'http://wedding0312.com/'
-    }
     },
-    buttons: [
-    {
-        title: '청첩장 보기',
-        link: {
-        mobileWebUrl: 'http://wedding0312.com/',
-        webUrl: 'http://wedding0312.com/'
-        }
-    }
-    ]
-});
+    });
+}
+
 
