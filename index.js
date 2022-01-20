@@ -134,6 +134,7 @@ kakaoShareBtn.onclick = function() {
               title: '청첩장 보기',
               link: {
                 mobileWebUrl: 'http://wedding0312.com/',
+                webUrl: 'http://wedding0312.com/'
               },
             }
           ]
