@@ -7,6 +7,32 @@
         <title>Wedding 2022/3/12</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>    </head>
+        <script type="text/javascript">
+            Kakao.init('94964405baa73e1cc86f8d7fd5510502');
+            Kakao.Link.createDefaultButton({
+                container: '#kakao-link-btn',
+                objectType: 'feed',
+                content: {
+                title: '모바일 청첩장',
+                description: '모바일 청첩장',
+                imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
+                link: {
+                    mobileWebUrl: 'http://wedding0312.com/',
+                    webUrl: 'http://wedding0312.com/'
+                }
+                },
+                buttons: [
+                {
+                    title: '청첩장 보기',
+                    link: {
+                    mobileWebUrl: 'http://wedding0312.com/',
+                    webUrl: 'http://wedding0312.com/'
+                    }
+                }
+                ]
+            });
+        </script>
+    </head>
     <body>
         <div class="container">
         <div class="all-divs div1">
@@ -108,13 +134,13 @@
             <div class="share-container">
                 <a id="kakao-link-btn" href="javascript:sendLink()"></a>
                     <div class="share clickable">
-                        <img width="20" height="20" src="img/kakao.png"/>
+                        <img width="20" src="img/kakao.png"/>
                         <p class="details2 no-margin">카카오톡으로 공유하기</p>
                     </div>
                 </a>
                 <div class="padded-small"></div>
                 <div id="copyBtn" class="share clickable">
-                    <img width="20" height="20" src="img/link.png"/>
+                    <img width="20" src="img/link.png"/>
                     <p class="details2 no-margin">청첩장 주소 복사하기</p>
                 </div>
 
