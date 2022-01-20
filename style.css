@@ -1,0 +1,317 @@
+/* body {
+    height: 10000px;
+    max-width: 1500px;
+} */
+@font-face {
+    font-family: gowunBold;
+    src: url(resources/GowunBatang-Bold.ttf);
+} 
+
+@font-face {
+    font-family: gowunRegular;
+    src: url(resources/GowunBatang-Regular.ttf);
+}
+  
+
+body, html {
+    margin: 0;
+    font-family: gowunRegular;
+    word-break: keep-all;
+    min-width: 422px;
+}
+
+.header {
+    font-family: gowunBold;
+    font-size: 36px;
+
+}
+
+.header2 {
+    font-family: gowunRegular;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.details {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+}
+
+.details1 {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+
+.details2 {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.details3 {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.padded-bigger {
+    padding: 40px 0;
+}
+
+.padded-big {
+    padding: 30px 0;
+}
+
+.padded {
+    padding: 20px 0;
+}
+
+.padded-small {
+    padding: 10px 0;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.spaced-letters {
+    letter-spacing: 1em;
+    text-indent: 1em;
+}
+
+.all-divs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div1 {
+    color: white;
+    padding: 220px 0;
+    justify-content: center;
+
+  
+}
+
+.names {
+    padding-bottom: 15px;
+}
+
+.div2 {
+
+    padding: 0 80px;
+}
+
+.parents {
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.small-parents {
+    display: flex;
+    align-items: center;
+}
+
+.contact-us {
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.div4 {
+    padding-top: 380px;
+}
+
+.table-header {
+    font-size: 12px;
+    padding-right: 20px;
+    min-width: 50px;
+}
+
+.table {
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0;
+}
+.table-body {
+    flex-direction: column;
+}
+
+.div5 {
+    padding: 100px 0;
+}
+
+.share-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.no-margin{
+    margin: 0 10px;
+}
+
+.rights-reserved {
+    display: flex;
+    flex-direction: row;
+}
+.not-light {
+    padding: 0 3px;
+}
+.light {
+    color: gray;
+}
+
+
+/* modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #F3F3F3;
+    margin: 30% auto; /* 15% from the top and centered */
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.modal-header {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #E8E6E4;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.contact-container {
+    padding: 10px;
+}
+.parents-contact-container {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 0.5em;
+}
+
+.contact-role {
+    padding: 10px;
+    padding-right: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    box-shadow: #d8d8d8 0px 0px 2px 0px;
+}
+
+.blue {
+    color: #658EAA;
+}
+
+.pink {
+    color: #D97B74;
+}
+
+.divider {
+
+    width: 80%;
+    border-top: 1px solid #D8D8D8;
+
+}
+
+.money-details {
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.money-btn {
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #E8E6E4;
+
+    
+}
