@@ -123,7 +123,7 @@ kakaoShareBtn.onclick = function() {
             title: '준모 & 현정 모바일 청첩장',
             description: 'description',
             imageUrl:
-            'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+            'http://wedding0312.com/img/img2.jpeg',
             link: {
             mobileWebUrl: 'http://wedding0312.com/',
             webUrl: 'http://wedding0312.com/'
