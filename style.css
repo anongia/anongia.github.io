@@ -14,10 +14,14 @@
   
 
 body, html {
-    margin: 0;
     font-family: gowunRegular;
     word-break: keep-all;
     min-width: 452px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .header {
