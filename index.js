@@ -1,5 +1,7 @@
 // init kakao once
-
+$(document).ready(function(){
+  document.getElementById('center').scrollIntoView({ inline: 'center' });
+});
 Kakao.init('94964405baa73e1cc86f8d7fd5510502');
 
 

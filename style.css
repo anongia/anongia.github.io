@@ -17,12 +17,12 @@ body, html {
     margin: 0;
     font-family: gowunRegular;
     word-break: keep-all;
-    min-width: 422px;
+    min-width: 452px;
 }
 
 .header {
     font-family: gowunBold;
-    font-size: 36px;
+    font-size: 40px;
 
 }
 
@@ -30,32 +30,32 @@ body, html {
     font-family: gowunRegular;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
 
 }
 
 .details {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
 }
 
 .details1 {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
 
 
 .details2 {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
 
 .details3 {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
@@ -83,7 +83,8 @@ body, html {
 
 .container {
     background-image: url('img/bg.jpg');
-    background-position: center;
+    background-position-x: center;
+    background-position-y: top;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -105,7 +106,7 @@ body, html {
 
 .div1 {
     color: white;
-    padding: 220px 0;
+    padding: 250px 0;
     justify-content: center;
 
   
@@ -120,20 +121,43 @@ body, html {
     padding: 0 80px;
 }
 
+.parents-container {
+    justify-content: space-between;
+    align-items: center;
+}
 .parents {
     font-weight: bold;
     padding: 0 10px;
     font-size: 15px;
 }
 
+.parents-name {
+    display: flex;
+    justify-content: space-around;
+    width: 82px;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+}
+
 .small-parents {
     display: flex;
+    font-size: 12px;
     align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+    width: 63px;
+
 }
 
 .contact-us {
     text-decoration: underline;
+    color: black !important;
+}
+
+.contact-us-margin {
     padding: 20px;
+
 }
 
 .div4 {
@@ -141,13 +165,13 @@ body, html {
 }
 
 .table-header {
-    font-size: 12px;
+    font-size: 15px;
     padding-right: 20px;
     min-width: 50px;
 }
 
 .table {
-    font-size: 10px;
+    font-size: 13px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -183,9 +207,15 @@ body, html {
     margin: 0 10px;
 }
 
+.no-margin-0{
+    margin: 0;
+}
+
 .rights-reserved {
+    font-size: 9px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 35px;
 }
 .not-light {
     padding: 0 3px;
@@ -296,7 +326,7 @@ body, html {
 }
 
 .money-details {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0;
     padding: 10px;
     padding-right: 30px;
@@ -306,7 +336,7 @@ body, html {
 
 .money-btn {
     letter-spacing: 0;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.1em;
     padding: 5px 10px;

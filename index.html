@@ -6,10 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Wedding 2022/3/12</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>    
     </head>
     <body>
-        <div class="container">
+        <div id="center" class="container">
         <div class="all-divs div1">
             <div class="spaced-letters names">
                 <p class="header">구준모</p>
@@ -26,7 +27,7 @@
         </div>
 
         <div class="all-divs div2">
-            <p class="header2 padded-big">결혼합니다</p>
+            <p class="header2 padded-small">결혼합니다</p>
             <div class="details2">
                 <p>소중하게 아름답게 오래도록 다정하게<br>빛나도록 사랑스럽게 닳도록 아낌없이<br>사랑하며 살겠습니다.</p>
                 <div class="padded-small"></div>
@@ -34,25 +35,33 @@
             </div>
                 <div class="padded-small"></div>
             <div class="details2">
-                <div class="horizontal">
-                    <p class="parents">구   영∙권수경</p>
-                    <p class="small-parents">의 아들</p>
-                    <p class="parents">준모</p>
+                <div class="horizontal parents-container">
+                    <div class="parents-container horizontal">
+                        <div class="horizontal parents-name"><div class="no-margin-0">구</div><div class="no-margin-0">영</div></div>
+                        <div>∙</div>
+                        <div class="parents-name">권수경</div>
+                    </div>                    
+                    <div class="small-parents no-margin-0"><div>의</div><div>아들</div></div>
+                    <div class="parents-name no-margin-0">준모</div>
                 </div>
-                <div class="horizontal">
-                    <p class="parents">김택형∙김순옥</p>
-                    <p class="small-parents">의  딸</p>
-                    <p class="parents">현정</p>
+                <div class="horizontal parents-container">
+                    <div class="parents-container horizontal">
+                        <div class="parents-name">김택형</div>
+                        <div>∙</div>
+                        <div class="parents-name">김순옥</div>
+                    </div>
+                    <div class="small-parents no-margin-0"><div>의</div><div>딸</div></div>
+                    <div class="parents-name no-margin-0">현정</div>
                 </div>
             </div>
-            <div class="padded-small"></div>
+            <div class="padded-big"></div>
 
-            <div class="contact-us">
+            <div class="contact-us contact-us-margin">
                 <div id="contactBtn" class="details2">신랑∙신부에게 연락하기</div>
                 <div class="padded-small"></div>
                 <div id="contactParentsBtn" class="details2">혼주에게 연락하기</div>
             </div>
-            <div class="padded-big"></div>
+            <div class="padded-bigger"></div>
         </div>
 
         <div class="all-divs div3">
@@ -65,10 +74,12 @@
             <p class="header2 padded"> 오시는 길</p>
                 <p class="details2">조선 팰리스 서울 강남<br>3층 The Great Hall</p>
             <div class="padded"></div>
-            <img class="map" width="300" src="img/map-black.png"/> 
+            <img class="map" width="400" src="img/map-black.png"/> 
             <div class="padded-small"></div>
             <!-- 지도 여기 -->
-            <a href="http://naver.me/xHiZnl01"><p div class="contact-us details2">클릭하시면 지도를 자세히 보실 수 있습니다.</p></a>
+            <a href="http://naver.me/xHiZnl01">
+                <p div class="contact-us details2 contact-us-margin">클릭하시면 지도를 자세히 보실 수 있습니다.</p>
+            </a>
             <div class="padded-small"></div>
             <div class="div">
                 <div class="table">
@@ -99,12 +110,12 @@
         </div>
 
         <div class="div5">
-            <p class="header2 padded-big">마음 전하실 곳</p>
+            <p class="header2">마음 전하실 곳</p>
             <div class="contact-us">
-                <p id="groomMoneyBtn" class="details1">신랑측에게 마음 전하기</p>
+                <p id="groomMoneyBtn" class="details1 contact-us-margin">신랑측에게 마음 전하기</p>
                 <p id="brideMoneyBtn" class="details1">신부측에게 마음 전하기</p>
             </div>
-            <div class="padded-bigger"></div>
+            <div class="padded-big"></div>
 
             <div class="share-container">
                 <div id="kakaoShareBtn" class="share clickable">
@@ -118,7 +129,7 @@
                 </div>
 
             </div>
-            <div class="padded-bigger"></div>
+            <div class="padded-big"></div>
 
             <div class="details3 rights-reserved">
                 <div class="light">Copyright 2022.</div> 
