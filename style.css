@@ -129,7 +129,6 @@ body, html {
     margin: 15px 0;
 }
 .parents-container {
-    justify-content: space-between;
     align-items: center;
 }
 .parents {
@@ -147,8 +146,8 @@ body, html {
 }
 
 .parents-name2 {
-    display: flex;
     justify-content: end;
+    display: flex;
     width: 82px;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
