@@ -56,6 +56,21 @@ window.onclick = function(event) {
   }
 }
 
+$(document).on('mouseup touchend', function (event){
+  if (event.target == modal) {  
+    modal.style.display = "none";
+    }
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+  if (event.target == modal3) {
+    modal3.style.display = "none";  
+  }
+});
+
 
 
 var copybtn = document.getElementById("copyBtn");
