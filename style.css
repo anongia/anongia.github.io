@@ -176,6 +176,9 @@ body, html {
     display: flex;
     flex-direction: column;
 }
+.table-inside {
+    padding-bottom: 6px;
+}
 
 .table-row {
     display: flex;
@@ -250,8 +253,9 @@ body, html {
   .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
     font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
   }
   
   .close:hover,

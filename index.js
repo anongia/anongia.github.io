@@ -42,7 +42,8 @@ btn3.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-if (event.target == modal) {
+  event.preventDefault();
+  if (event.target == modal) {  
     modal.style.display = "none";
     }
   if (event.target == modal1) {
@@ -122,8 +123,8 @@ kakaoShareBtn.onclick = function() {
 
         objectType: 'feed',
         content: {
-            title: '준모 & 현정 모바일 청첩장',
-            description: 'description',
+            title: '구준모, 김현정 결혼합니다.',
+            description: '2022년 3월 12일 토요일 오후 6시 조선 팰리스',
             imageUrl:
             'http://wedding0312.com/img/img2.jpeg',
             link: {
