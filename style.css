@@ -21,7 +21,6 @@ body, html {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
 
 .header {
@@ -34,7 +33,7 @@ body, html {
     font-family: gowunRegular;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
-    font-size: 24px;
+    font-size: 25px;
     text-align: center;
 
 }
@@ -126,7 +125,9 @@ body, html {
 
     padding: 0 80px;
 }
-
+.parents-container0 {
+    margin: 15px 0;
+}
 .parents-container {
     justify-content: space-between;
     align-items: center;
@@ -143,6 +144,18 @@ body, html {
     width: 82px;
     letter-spacing: 0.5em;
     text-indent: 0.5em;
+}
+
+.parents-name2 {
+    display: flex;
+    justify-content: end;
+    width: 82px;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+}
+
+.daughter {
+    padding: 0 9px;
 }
 
 .small-parents {
@@ -162,7 +175,7 @@ body, html {
 }
 
 .contact-us-margin {
-    padding: 20px;
+    padding: 15px;
 
 }
 
