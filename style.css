@@ -16,59 +16,29 @@
 body, html {
     font-family: gowunRegular;
     word-break: keep-all;
-    min-width: 452px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 
-.header {
-    font-family: gowunBold;
-    font-size: 40px;
-
-}
-
-.header2 {
-    font-family: gowunRegular;
-    letter-spacing: 0.5em;
-    text-indent: 0.5em;
-    font-size: 25px;
-    text-align: center;
-
-}
-
-.details {
-    font-size: 15px;
-    letter-spacing: 0.5em;
-    text-indent: 0.5em;
 }
 
 .details1 {
-    font-size: 18px;
+    font-size: 2.8vw;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
 
-
 .details2 {
-    font-size: 15px;
+    font-size: 2.5vw;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
 
 .details3 {
-    font-size: 12px;
+    font-size: 3.2vw;
     letter-spacing: 0.1em;
     text-indent: 0.1em;
 }
 
-.padded-bigger {
-    padding: 40px 0;
-}
-
 .padded-big {
-    padding: 30px 0;
+    padding: 12vw 0;
 }
 
 .padded {
@@ -76,7 +46,12 @@ body, html {
 }
 
 .padded-small {
-    padding: 10px 0;
+    padding: 3vw 0;
+}
+
+.padded-smaller {
+    padding: 1vw 0;
+
 }
 
 .horizontal {
@@ -85,11 +60,6 @@ body, html {
 }
 
 .container {
-    background-image: url('img/bg.jpg');
-    background-position-x: center;
-    background-position-y: top;
-    background-size: contain;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,118 +74,75 @@ body, html {
 }
 
 .all-divs {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    width: 100%;
+    position: relative;
 }
 
-.div1 {
-    color: white;
-    padding: 245px 0;
-    justify-content: center;
-
-  
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.names {
-    padding-bottom: 15px;
-}
-
-.div2 {
-
-    padding: 0 80px;
-}
-.parents-container0 {
-    margin: 15px 0;
-}
-.parents-container {
-    align-items: center;
-}
-.parents {
-    font-weight: bold;
-    padding: 0 10px;
-    font-size: 15px;
-}
-
-.parents-name {
-    display: flex;
-    justify-content: space-between;
-    width: 82px;
-    letter-spacing: 0.5em;
-    text-indent: 0.5em;
-}
-
-.parents-name2 {
-    justify-content: end;
-    display: flex;
-    width: 82px;
-    letter-spacing: 0.5em;
-    text-indent: 0.5em;
-}
-
-.daughter {
-    padding: 0 9px;
-}
-
-.small-parents {
-    display: flex;
-    font-size: 12px;
-    align-items: center;
-    justify-content: space-between;
-    letter-spacing: 0.5em;
-    text-indent: 0.5em;
-    width: 63px;
-
-}
-
-.contact-us {
-    text-decoration: underline;
+a {
     color: black !important;
 }
 
-.contact-us-margin {
-    padding: 15px;
+.center-fit {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
 
+.div1 {
+    background-image: url('img/No6_Page1.jpg');   
+    width: 400px;
+}
+
+.div2 {
+    background-image: url('img/No6_Page2.jpg');   
+}
+
+.div3 {
+    background-image: url('img/No6_Page3.jpg');   
 }
 
 .div4 {
-    padding-top: 350px;
-}
-
-.table-header {
-    font-size: 15px;
-    padding-right: 20px;
-    min-width: 50px;
-}
-
-.table {
-    font-size: 13px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-}
-.table-inside {
-    padding-bottom: 6px;
-}
-
-.table-row {
-    display: flex;
-    flex-direction: row;
-    margin: 3px 0;
-}
-.table-body {
-    flex-direction: column;
+    background-image: url('img/No6_Page4.jpg');   
 }
 
 .div5 {
-    padding: 100px 0;
+    background-image: url('img/No6_Page5.jpg');   
 }
 
-.share-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.clickable-link {
+    text-decoration: underline;
+    color: black !important;
 
+}
+
+.absolute-component {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.contact-us {
+    position: absolute;
+    bottom: 8%;
+
+}
+
+.contact-us-margin {
+    padding-bottom: 6vw;
+}
+
+.map-link {
+    bottom: 27%;
+}
+
+.last-page {
+    top: 25%;
 }
 
 .share {
@@ -224,26 +151,15 @@ body, html {
     flex-direction: row;
 }
 
-.no-margin{
-    margin: 0 10px;
+.share-p {
+    padding-left: 2vw;
 }
 
-.no-margin-0{
-    margin: 0;
+.share-img {
+    width: 4vw;
+    height: 4vw;
 }
 
-.rights-reserved {
-    font-size: 9px;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 35px;
-}
-.not-light {
-    padding: 0 3px;
-}
-.light {
-    color: gray;
-}
 
 
 /* modal */
