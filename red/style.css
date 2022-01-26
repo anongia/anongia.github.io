@@ -4,12 +4,12 @@
 } */
 @font-face {
     font-family: gowunBold;
-    src: url(resources/GowunBatang-Bold.ttf);
+    src: url(../resources/GowunBatang-Bold.ttf);
 } 
 
 @font-face {
     font-family: gowunRegular;
-    src: url(resources/GowunBatang-Regular.ttf);
+    src: url(../resources/GowunBatang-Regular.ttf);
 }
   
 
@@ -144,7 +144,7 @@ a {
 }
 
 .map-link {
-    bottom: 27%;
+    bottom: 33%;
 }
 
 .last-page {

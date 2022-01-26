@@ -4,12 +4,12 @@
 } */
 @font-face {
     font-family: gowunBold;
-    src: url(resources/GowunBatang-Bold.ttf);
+    src: url(../resources/GowunBatang-Bold.ttf);
 } 
 
 @font-face {
     font-family: gowunRegular;
-    src: url(resources/GowunBatang-Regular.ttf);
+    src: url(../resources/GowunBatang-Regular.ttf);
 }
   
 
@@ -48,7 +48,7 @@ body, html {
 }
 
 .padded {
-    padding: 20px 0;
+    padding: 10vw 0;
 }
 
 .padded-small {
@@ -123,7 +123,6 @@ a {
 
 .clickable-link {
     text-decoration: underline;
-    color: black !important;
 
 }
 
@@ -135,7 +134,7 @@ a {
 
 .contact-us {
     position: absolute;
-    bottom: 8%;
+    bottom: 12%;
 
 }
 
@@ -144,11 +143,11 @@ a {
 }
 
 .map-link {
-    bottom: 27%;
+    bottom: 31%;
 }
 
 .last-page {
-    top: 25%;
+    top: 30%;
 }
 
 .share {
@@ -166,7 +165,13 @@ a {
     height: 4vw;
 }
 
+.white {
+    color: white !important;
+}
 
+.black {
+    color: black !important;
+}
 
 /* modal */
 .modal {
