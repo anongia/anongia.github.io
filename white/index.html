@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Joonmo & Hyunjung Wedding 2022.03.12</title>
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>    
+    </head>
+    <body>
+        <div id="center" class="container">
+        <div class="all-divs">
+            <img class="center-fit" src="../img/No7_Page1.jpg"/>
+         
+        </div>
+        <div class="all-divs">
+            <img class="center-fit" src="../img/No7_Page2.jpg"/>
+            <div class="absolute-component contact-us">
+                <div id="contactBtn" class="clickable-link details3">신랑∙신부에게 연락하기</div>
+                <div class="padded-small"></div>
+                <div id="contactParentsBtn" class="clickable-link details3">혼주에게 연락하기</div>
+            </div>
+         
+        </div>
+        <div class="all-divs">
+            <img class="center-fit" src="../img/No7_Page3.jpeg"/>
+            
+        </div>
+        <div class="all-divs">
+            <img class="center-fit" src="../img/No7_Page4.jpg"/>
+            <a class="absolute-component map-link" href="http://naver.me/xHiZnl01">
+                <p div class="clickable-link details1">클릭하시면 지도를 자세히 보실 수 있습니다.</p>
+            </a>
+        </div>
+        <div class="all-divs">
+            <img class="center-fit" src="../img/No7_Page5.jpg"/>
+
+            <div class="absolute-component last-page">
+                <div class="clickable-link">
+                    <p id="groomMoneyBtn" class="details3 contact-us-margin">신랑측에게 마음 전하기</p>
+                    <p id="brideMoneyBtn" class="details3">신부측에게 마음 전하기</p>
+                </div>
+                <div class="padded-big"></div>
+    
+                <div class="share-container">
+                    <div id="kakaoShareBtn" class="share clickable">
+                        <img class="share-img" src="img/kakao.png"/>
+                        <p class="details4 share-p">카카오톡으로 공유하기</p>
+                    </div>
+                   <div class="padded-smaller"></div>
+
+                    <div id="copyBtn" class="share clickable">
+                        <img class="share-img" src="img/link.png"/>
+                        <p class="details4 share-p">청첩장 주소 복사하기</p>
+                    </div>
+    
+                </div>
+            </div>
+         
+        </div>
+
+  
+
+        </div>
+
+        <div id="groomMoneyModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">신랑측 계좌번호</div>
+                <div class="contact-container">
+                    <div class="parents-contact-container">
+                        <div class="money-details">신한은행 110-027-822752<br>(신랑 아버지) 구 영</div>
+                        <div class="contact-icon-container">
+                            <div id="copyBtn1" class="money-btn blue">복사하기</div>
+                        </div>
+                    </div>
+                    <div class="parents-contact-container">
+                        <div class="money-details">신한은행 110-260-412730<br>(신랑) 구준모</div>
+                        <div class="contact-icon-container">
+                            <div id="copyBtn2" class="money-btn blue">복사하기</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="brideMoneyModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">신부측 계좌번호</div>
+                <div class="contact-container">
+                    <div class="parents-contact-container">
+                        <div class="money-details">신한은행 155-000-730544<br>(신부 아버지) 김택형</div>
+                        <div class="contact-icon-container">
+                            <div id="copyBtn3" class="money-btn pink">복사하기</div>
+                        </div>
+                    </div>
+                    <div class="parents-contact-container">
+                        <div class="money-details">신한은행 110-250-138410<br>(신부) 김현정</div>
+                        <div class="contact-icon-container">
+                            <div id="copyBtn4" class="money-btn pink">복사하기</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        <div id="contactModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">신랑 신부에게 연락하기</div>
+                <div class="contact-container">
+                    <div class="parents-contact-container">
+                        <div class="contact-role blue">신랑</div>
+                        <div class="contact-role">구준모</div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-7495-1990">
+                                <div class="contact-icon">
+                                    <img width="12" height="12" src="resources/phone-alt-solid-blue.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="parents-contact-container">
+                        <div class="contact-role pink">신부</div>
+                        <div class="contact-role">김현정</div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-5135-0979">
+                                <div class="contact-icon">
+                                    <img class="blue" width="12" height="12" src="resources/phone-alt-solid-pink.svg"/>
+                               </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactParentsModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">혼주에게 연락하기</div>
+                <div class="contact-container">
+                    <div class="parents-contact-container">
+                        <div class="contact-role blue">신랑父</div>
+                        <div class="contact-role"><p class="no-margin">구</p><p class="no-margin">영</p></div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-4016-4484">
+                                <div class="contact-icon">
+                                    <img width="12" height="12" src="resources/phone-alt-solid-blue.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="parents-contact-container">
+                        <div class="contact-role blue">신랑母</div>
+                        <div class="contact-role">권수경</div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-8922-2595">
+                                <div class="contact-icon">
+                                    <img class="blue" width="12" height="12" src="resources/phone-alt-solid-blue.svg"/>
+                               </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="contact-container">
+                    <div class="parents-contact-container">
+                        <div class="contact-role pink">신부父</div>
+                        <div class="contact-role">김택형</div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-3685-0473">
+                                <div class="contact-icon">
+                                    <img width="12" height="12" src="resources/phone-alt-solid-pink.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="parents-contact-container">
+                        <div class="contact-role pink">신부母</div>
+                        <div class="contact-role">김순옥</div>
+                        <div class="contact-icon-container">
+                            <a href="tel:010-6286-0116">
+                                <div class="contact-icon">
+                                    <img class="blue" width="12" height="12" src="resources/phone-alt-solid-pink.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
