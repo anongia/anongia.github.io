@@ -37,6 +37,12 @@ body, html {
     text-indent: 0.1em;
 }
 
+.details4 {
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
 .padded-big {
     padding: 12vw 0;
 }
