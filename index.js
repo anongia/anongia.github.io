@@ -138,7 +138,7 @@ kakaoShareBtn.onclick = function() {
         objectType: 'feed',
         content: {
             title: '구준모, 김현정 결혼합니다.',
-            description: '2022년 3월 12일 토요일 오후 6시 조선 팰리스',
+            description: '2022년 3월 12일 토요일 오후 6시\n조선 팰리스',
             imageUrl:
             'http://wedding0312.com/img/img2.jpeg',
             link: {
