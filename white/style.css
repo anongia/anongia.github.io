@@ -1,0 +1,295 @@
+/* body {
+    height: 10000px;
+    max-width: 1500px;
+} */
+@font-face {
+    font-family: gowunBold;
+    src: url(resources/GowunBatang-Bold.ttf);
+} 
+
+@font-face {
+    font-family: gowunRegular;
+    src: url(resources/GowunBatang-Regular.ttf);
+}
+  
+
+body, html {
+    font-family: gowunRegular;
+    word-break: keep-all;
+
+}
+
+.details1 {
+    font-size: 2.8vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.details2 {
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.details3 {
+    font-size: 3.2vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.details4 {
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+}
+
+.padded-big {
+    padding: 12vw 0;
+}
+
+.padded {
+    padding: 20px 0;
+}
+
+.padded-small {
+    padding: 3vw 0;
+}
+
+.padded-smaller {
+    padding: 1vw 0;
+
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.spaced-letters {
+    letter-spacing: 1em;
+    text-indent: 1em;
+}
+
+.all-divs {
+    display: grid;
+    width: 100%;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black !important;
+}
+
+.center-fit {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.div1 {
+    background-image: url('img/No6_Page1.jpg');   
+    width: 400px;
+}
+
+.div2 {
+    background-image: url('img/No6_Page2.jpg');   
+}
+
+.div3 {
+    background-image: url('img/No6_Page3.jpg');   
+}
+
+.div4 {
+    background-image: url('img/No6_Page4.jpg');   
+}
+
+.div5 {
+    background-image: url('img/No6_Page5.jpg');   
+}
+
+.clickable-link {
+    text-decoration: underline;
+    color: black !important;
+
+}
+
+.absolute-component {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.contact-us {
+    position: absolute;
+    bottom: 8%;
+
+}
+
+.contact-us-margin {
+    padding-bottom: 6vw;
+}
+
+.map-link {
+    bottom: 27%;
+}
+
+.last-page {
+    top: 25%;
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.share-p {
+    padding-left: 2vw;
+}
+
+.share-img {
+    width: 4vw;
+    height: 4vw;
+}
+
+
+
+/* modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #F3F3F3;
+    margin: 30% auto; /* 15% from the top and centered */
+    width: 75%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.modal-header {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #E8E6E4;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.contact-container {
+    padding: 10px;
+}
+.parents-contact-container {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 0.5em;
+}
+
+.contact-role {
+    padding: 10px;
+    padding-right: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    box-shadow: #d8d8d8 0px 0px 2px 0px;
+}
+
+.blue {
+    color: #658EAA;
+}
+
+.pink {
+    color: #D97B74;
+}
+
+.divider {
+
+    width: 80%;
+    border-top: 1px solid #D8D8D8;
+
+}
+
+.money-details {
+    font-size: 15px;
+    letter-spacing: 0;
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.money-btn {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #E8E6E4;
+
+    
+}
+
+.clickable {
+    cursor: pointer;
+}
