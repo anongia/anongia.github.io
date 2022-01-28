@@ -78,7 +78,7 @@ var copybtn = document.getElementById("copyBtn");
 copybtn.onclick = function() {
     // navigator.clipboard.writeText('http://wedding0312.com/');
     const el = document.createElement('textarea');
-    el.value = 'http://wedding0312.com/black';
+    el.value = 'http://wedding0312.com/grey';
     document.body.appendChild(el);
     el.select();
     document.execCommand('copy');
@@ -142,16 +142,16 @@ kakaoShareBtn.onclick = function() {
             imageUrl:
             'http://wedding0312.com/img/img2.jpeg',
             link: {
-            mobileWebUrl: 'http://wedding0312.com/black',
-            webUrl: 'http://wedding0312.com/black'
+            mobileWebUrl: 'http://wedding0312.com/grey',
+            webUrl: 'http://wedding0312.com/grey'
             },
         },
         buttons: [
             {
               title: '청첩장 보기',
               link: {
-                mobileWebUrl: 'http://wedding0312.com/black',
-                webUrl: 'http://wedding0312.com/black'
+                mobileWebUrl: 'http://wedding0312.com/grey',
+                webUrl: 'http://wedding0312.com/grey'
               },
             }
           ]
