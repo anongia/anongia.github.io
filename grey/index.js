@@ -85,33 +85,12 @@ copybtn.onclick = function() {
     document.body.removeChild(el);
 }
 
-var copybtn1 = document.getElementById("copyBtn1");
-
-copybtn1.onclick = function() {
-    const el = document.createElement('textarea');
-    el.value = '110-027-822752';
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-}
 
 var copybtn2 = document.getElementById("copyBtn2");
 
 copybtn2.onclick = function() {
     const el = document.createElement('textarea');
     el.value = '110-260-412730';
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-}
-
-var copybtn3 = document.getElementById("copyBtn3");
-
-copybtn3.onclick = function() {
-    const el = document.createElement('textarea');
-    el.value = '155-000-730544';
     document.body.appendChild(el);
     el.select();
     document.execCommand('copy');
