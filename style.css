@@ -45,7 +45,22 @@ Grey #ECF0F1
 
 .grey {
   background: #ECF0F1;
-  padding: 100px 0 100px;
+  padding: 50px 0 100px;
+}
+
+.divider {
+  width: 10%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.skinny-div {
+  width: 70%;
+  margin: auto;
+}
+b {
+  font-style: italic;
+  color: #4a4a4a;
 }
 
 a {
